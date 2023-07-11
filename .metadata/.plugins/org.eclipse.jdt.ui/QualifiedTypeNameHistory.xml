@@ -30,5 +30,6 @@
     <fullyQualifiedTypeName name="com.educandoweb.course.repositories.CategoryRepository"/>
     <fullyQualifiedTypeName name="com.educandoweb.course.entites.Category"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="com.educandoweb.course.entites.Product"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Transient"/>
 </qualifiedTypeNameHistroy>
