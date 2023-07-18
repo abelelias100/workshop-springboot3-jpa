@@ -7465,3 +7465,12 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 09:55:04.002
 !MESSAGE Classpath changed for project: course
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 12:37:20.563
+!MESSAGE Classpath changed for project: course
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 12:58:33.454
+!MESSAGE Classpath changed for project: course
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-18 15:27:52.707
+!MESSAGE Classpath changed for project: course
