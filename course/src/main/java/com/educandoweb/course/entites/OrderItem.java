@@ -10,8 +10,9 @@ import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 
+
 @Entity
-@Table(name= "tb_order_iten")
+@Table(name = "tb_order_item")
 public class OrderItem implements Serializable {
 
 	private static final long serialVersionUID = 1L;
@@ -35,7 +36,7 @@ public class OrderItem implements Serializable {
 		this.price = price;
 	}
 
-	
+	@JsonIgnore
 	public Order getOrder() {
 		return id.getOrder();
 	}
@@ -68,6 +69,11 @@ public class OrderItem implements Serializable {
 		this.price = price;
 	}
 
+	public Double getSubTotal() {
+		return price * quantity;
+		
+	}
+	
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
