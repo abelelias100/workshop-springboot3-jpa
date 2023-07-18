@@ -40,20 +40,20 @@ public class UserResource {
 		}
 	
 	// esse metodo retorna 200ok que não é o mais adequado
-	@PostMapping
+	/*@PostMapping
 	public ResponseEntity<User> insert(@RequestBody User obj){
 		obj= service.insert(obj);
 		return ResponseEntity.ok().body(obj);
-	}
+	}*/
 	
 	
 	//metodo mais adequado :
 	
-	//@PostMapping
-	/*public ResponseEntity<User> insert(@RequestBody User obj){
+	@PostMapping
+	public ResponseEntity<User> insert(@RequestBody User obj){
 		URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(obj.getId()).toUri();
 		return ResponseEntity.created(uri).body(obj);
-	}*/
+	}
 	
 	@DeleteMapping(value ="/{id}")
 	public ResponseEntity <Void> delete(@PathVariable Long id){
