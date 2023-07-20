@@ -8415,3 +8415,9 @@ org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(347) The type jav
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-20 12:12:37.733
 !MESSAGE Classpath changed for project: course
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-20 20:11:12.456
+!MESSAGE Classpath changed for project: course
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-20 20:12:10.583
+!MESSAGE Classpath changed for project: course
