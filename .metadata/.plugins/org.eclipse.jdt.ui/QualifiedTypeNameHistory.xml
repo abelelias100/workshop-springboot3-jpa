@@ -40,4 +40,7 @@
     <fullyQualifiedTypeName name="org.apache.logging.log4j.util.Timer.Status"/>
     <fullyQualifiedTypeName name="com.educandoweb.course.services.exceptions.ResourceNotFoundExceptions"/>
     <fullyQualifiedTypeName name="com.educandoweb.course.resources.StandardError"/>
+    <fullyQualifiedTypeName name="org.springframework.dao.DataIntegrityViolationException"/>
+    <fullyQualifiedTypeName name="org.springframework.dao.EmptyResultDataAccessException"/>
+    <fullyQualifiedTypeName name="com.educandoweb.course.services.exceptions.DatabaseException"/>
 </qualifiedTypeNameHistroy>
